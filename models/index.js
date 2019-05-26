@@ -6,7 +6,7 @@ const Sequelize = require('sequelize');
 // To use SQLite data base:
 //    DATABASE_URL = sqlite:quiz.sqlite
 // To use  Heroku Postgres data base:
-//    DATABASE_URL = postgres://user:passwd@host:port/database
+DATABASE_URL = postgres://nryqjdkmbpvnli:4984b8d20d0ac72209941d705948f86f9f904a6a774558ed4f6b9d757cf6b595@ec2-54-163-226-238.compute-1.amazonaws.com:5432/dckpv2lfqjfdgt
 
 const url = process.env.DATABASE_URL || "sqlite:quiz.sqlite";
 
